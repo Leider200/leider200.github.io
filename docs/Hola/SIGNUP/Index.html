@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup_style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Lato&display=swap');
+    </style>
+    <title>Close English</title>
+</head>
+<body>
+    <section id="top-bar">
+        <div class="bar-buttons bar-home" onclick="Home()"><p>INICIO</p></div>
+        <div class="bar-buttons" onclick="Profile()"><p>PERFIL</p></div>
+        <div class="bar-buttons" onclick="Prices()"><p>PRECIOS</p></div>
+        <div class="bar-buttons" onclick="Test()"><p>TEST</p></div>
+        <div class="bar-buttons" onclick="Courses()"><p>CURSOS</p></div>
+        <div class="bar-buttons" onclick="we()"><p>NOSOTROS</p></div>
+    </section>
+
+    <section id="Content">
+        <section id="left">
+            <p class="Signup_text">Registro</p>
+            <form method="POST" id="form"> 
+                <input class="field" id="Name" name="Name" type="text" placeholder="Nombre Completo" required></input>
+                <input class="field" id="User" name="User" type="text" placeholder="Nombre De Usuario" required></input>
+                <input class="field" id="Email" name="Email" type="text" placeholder="Correo Electronico" required></input>
+                <input class="field" id="Pasw" name="Pasw" type="password" placeholder="Contraseña" oninput="ShowMsg(this); validate_pw();" required></input>
+                <input class="field" id="Pasw2" name="Pasw2" type="password" placeholder="Confirmar Contraseña" oninput="ShowMsg(this); validate_pw(); " required></input>
+                <label for="Pasw" onclick="ShowPW('show','Pasw'); ShowPW('show','Pasw2')" ><p id="show">Show</p></label>
+                <button type="submit" class="Signup_button" name="send">Continuar</button>
+            </form>
+            <!-- <div class="Login_button">Continuar </div> -->
+            <p class="already_user" onclick="Login()"> Ya tienes cuenta? Inicia Sesion</p>
+        </section>
+
+       
+        <div class="circle">
+            <div class="small_circles circle1"></div>
+            <div class="small_circles circle2"></div>
+            <div class="small_circles circle3"></div>
+        </div>
+
+        <div class="Welcome_text">
+            <p>Aprende inglés mas <br>rápido y más fácil este <br>2023</p>
+            <p2><img src="/CLOSE/img/checkmark.png" width="20px" height="20px" float="left" style="padding-right: 5px; position: relative; top: 5px;"  >Totalmente Gratis</p2><br>
+            <p2><img src="/CLOSE/img/checkmark.png" width="20px" height="20px" float="left" style="padding-right: 5px; position: relative; top: 5px;"  >100% Virtual</p2>
+        </div>
+    </section>
+    
+</body>
+<script src="/CLOSE/base_script.js"></script>
+<script src="/CLOSE/database_script.js"></script>
+
+</html>

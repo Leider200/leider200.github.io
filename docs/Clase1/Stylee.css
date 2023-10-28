@@ -1,0 +1,135 @@
+html{
+    background-color: #BCE1ED;
+
+}
+
+
+
+p {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Franklin Gothic ';
+}
+a {
+    color: black;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New';
+    margin-bottom: 0px;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New';
+    margin-top: 5px;
+}
+h3{
+    text-align: center;
+    font-family: 'Courier New';
+    font-size: 30px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+h3:hover {
+    transition: 0.5s;
+    font-size: 33px;
+    color: #2392c5;
+}
+
+.Img1 {
+    height: 60vh;
+    width: 80vw;
+    background-image: url(./img/img1.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    align-items: center;
+    display: flex;
+}
+.Img2 {
+    height: 60vh;
+    width: 80vw;
+    background-image: url(./img/img2.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    align-items: center;
+    display: flex;
+}
+.Img3 {
+    height: 60vh;
+    width: 80vw;
+    background-image: url(./img/img3.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    align-items: center;
+    display: flex;
+}
+.Img4 {
+    height: 60vh;
+    width: 80vw;
+    background-image: url(./img/img4.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    align-items: center;
+    display: flex;
+}
+.Img5 {
+    height: 60vh;
+    width: 80vw;
+    background-image: url(./img/img5.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    align-items: center;
+    display: flex;
+}
+.Img6 {
+    height: 60vh;
+    width: 80vw;
+    background-image: url(./img/img6.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    align-items: center;
+    display: flex;
+}
+.art1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+}
+.art2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+}
+.art3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+}
+.art4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+}
+.art5 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+}
+.art6 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+    
+}
